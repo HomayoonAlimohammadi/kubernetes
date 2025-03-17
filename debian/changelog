@@ -1,0 +1,46 @@
+kubeadm (1.33+build11) jammy; urgency=medium
+
+  * Add rsync to build deps
+
+ -- Homayoon Alimohammadi <homayoon.alimohammadi@canonical.com>  Fri, 17 Mar 2025 13:53:00 +0400
+
+kubeadm (1.33+build10) jammy; urgency=medium
+
+  * Add GO_PATH
+
+ -- Homayoon Alimohammadi <homayoon.alimohammadi@canonical.com>  Fri, 17 Mar 2025 13:53:00 +0400
+
+
+kubeadm (1.33+build9) jammy; urgency=medium
+
+  * Testing final binary dir without GO_PATH
+
+ -- Homayoon Alimohammadi <homayoon.alimohammadi@canonical.com>  Fri, 17 Mar 2025 13:37:00 +0400
+
+
+kubeadm (1.33+build8) jammy; urgency=medium
+
+  * Check where is kubeadm
+
+ -- Homayoon Alimohammadi <homayoon.alimohammadi@canonical.com>  Fri, 15 Mar 2025 01:34:33 +0400
+
+
+kubeadm (1.33+build7) jammy; urgency=medium
+
+  * Remove curl, Vendor go
+
+ -- Homayoon Alimohammadi <homayoon.alimohammadi@canonical.com>  Fri, 15 Mar 2025 00:34:33 +0400
+
+
+kubeadm (1.33+build6) jammy; urgency=medium
+
+  * Show curl error
+
+ -- Homayoon Alimohammadi <homayoon.alimohammadi@canonical.com>  Fri, 14 Mar 2025 23:34:33 +0400
+
+
+kubeadm (1.33+build5) jammy; urgency=medium
+
+  * Initial Release.
+
+ -- Homayoon Alimohammadi <homayoon.alimohammadi@canonical.com>  Fri, 14 Mar 2025 22:34:33 +0400
