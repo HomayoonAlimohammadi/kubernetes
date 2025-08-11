@@ -98,7 +98,7 @@ type Options struct {
 	CoordinatedLeadershipRetryPeriod   time.Duration
 }
 
-// completedServerRunOptions is a private wrapper that enforces a call of Complete() before Run can be invoked.
+// completedOptions is a private wrapper that enforces a call of Complete() before Run can be invoked.
 type completedOptions struct {
 	Options
 }
