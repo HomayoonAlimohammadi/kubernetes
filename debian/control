@@ -1,0 +1,14 @@
+Source: kubeadm
+Section: utils
+Priority: optional
+Maintainer: Homayoon Alimohammadi <homayoon.alimohammadi@canonical.com>
+Build-Depends: debhelper-compat (= 13), rsync
+Standards-Version: 4.6.0
+Homepage: https://launchpad.net/~homayoon-alm/+archive/ubuntu/kubeadm
+Rules-Requires-Root: no
+
+Package: kubeadm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: kubeadm deb
+ kubeadm deb
